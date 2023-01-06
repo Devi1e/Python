@@ -1,4 +1,4 @@
-hi=input("\tExgample :omarhanif@gamil.net.bd.com  \n\tEnter your email :")
+hi=input("\tExgample :email@std.edu.gov.bd  \n\tEnter your email :")
 
 #find @ and @ count ...
 f=hi.find("@")
