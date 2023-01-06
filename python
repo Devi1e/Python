@@ -1,5 +1,4 @@
 hi=input("\tExgample :omarhanif@gamil.net.bd.com  \n\tEnter your email :")
-#hi="omarhanif5346@gamil.net.bd.com"
 
 #find @ and @ count ...
 f=hi.find("@")
@@ -25,6 +24,7 @@ d=hi.find(" ")
 n=hi.count(" ")
 
 # spease ==0 and Dot == 3 and find @ and @ ==1 ...
+
 if hi.startswith("@",f) and bye <=3 and fu==1 and n == 0:
 
     # 1st Dot cheak ...
@@ -36,9 +36,7 @@ if hi.startswith("@",f) and bye <=3 and fu==1 and n == 0:
             # 3rd Dot cheak ...
             if hi.startswith(".",o):
 
-                print("\t.....RUN.....")
-                print("\tJOB  : 03 ")
-                print("\tNAME : MD OMAR HANIF \n\tROLL : 677791")
+                print("\tRUN")
 
             else:
 
