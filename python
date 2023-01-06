@@ -1,0 +1,57 @@
+hi=input("\tExgample :omarhanif@gamil.net.bd.com  \n\tEnter your email :")
+#hi="omarhanif5346@gamil.net.bd.com"
+
+#find @ and @ count ...
+f=hi.find("@")
+fu=hi.count("@")
+
+#Total Dot count ...
+bye=hi.count(".")
+
+# 1st Dot len ...
+k=hi.find(".",f)
+
+#2nd Dot count ...
+g=hi.find(".",k+1)
+
+#3rd Dot count ...
+o=hi.find(".",g+1)
+
+
+# Find spease ...
+d=hi.find(" ")
+
+#spease count ...
+n=hi.count(" ")
+
+# spease ==0 and Dot == 3 and find @ and @ ==1 ...
+if hi.startswith("@",f) and bye <=3 and fu==1 and n == 0:
+
+    # 1st Dot cheak ...
+    if hi.startswith('.',k):
+
+        # 2nd Dot cheak ...
+        if hi.startswith(".",g):
+
+            # 3rd Dot cheak ...
+            if hi.startswith(".",o):
+
+                print("\t.....RUN.....")
+                print("\tJOB  : 03 ")
+                print("\tNAME : MD OMAR HANIF \n\tROLL : 677791")
+
+            else:
+
+                print(f"\t3rd Dot Error\n\n\tYour Email \t:  {hi} ")
+
+        else:
+
+            print(f"\t2nd Dot Error\n\n\tYour Email \t:  \t{hi} ")
+
+    else:
+
+        print(f"\t1st Dot error\n\n\tYour Email \t:  \t{hi}")
+
+else:
+
+    print(f" {hi} \t:  Error")
